@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <h2 class="logo">Organic info</h2>
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="login.html">Login</a>
+                <a href="products.html">Groceries</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html" class="active-a">Contact Us</a>
+            </div>
+        </div>
+        <div class="content">
+            <h3 style="color:rgb(68, 0, 186);">Contact Details</h3>
+            <form method="POST" action="contact2.html">
+                <p>Enter your name:</p>
+                <input type="text" placeholder="Enter your name" name="username" required>
+                <br>
+                <p>Enter your e-mail:</p>
+                <input type="email" placeholder="ex: myname@gmail.com" name="email" required>
+                <br>
+                <p>Mobile Number:</p>
+                <input type="tel" placeholder="0000000000" name="number" required>
+                <br>
+                <p>Message</p>
+                <textarea placeholder="Please write your message here.." name="message" required></textarea>
+                <br>
+                <!-- <input type="submit" class="submit-btn" value="Submit"> -->
+                <a href="contact2.html" class="submit-btn"> <input type="button" name ="submit" value="Submit"/></a> <br/>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
